@@ -127,11 +127,8 @@ margin-left: auto;
     color:var(--brand-color);
     letter-spacing: 0.03em;
 }
-.mail{
- 
- 
-
-}
+/* .mail{
+} */
 @media screen and (min-width: 428px) {
   .mail {
     display:none;
