@@ -641,7 +641,8 @@ margin-left: auto;
     margin-right: auto;
     margin-left: auto;
    text-align: center;
-   }}
+   }
+}
    @media screen and (min-width:1200px) {
     .fotter-boxes{
     display: flex;
@@ -655,6 +656,16 @@ margin-left: auto;
 @media screen and (min-width:1200px) {
     .media{
         margin-right: 80px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+    .fotter-boxes{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+    }
+    .subscribe-form{
+        margin-right: 46px;
     }
 }
 .media-set{
