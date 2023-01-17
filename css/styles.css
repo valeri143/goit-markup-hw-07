@@ -224,7 +224,8 @@ transition: color 250ms var(--animation-cubic);
         }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),(min-resolution: 2dppx){
+screen and (min-width: 481px) and (min-resolution: 192dpi),
+screen and (min-width:481px) and (min-resolution: 2dppx){
     .primary{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
  url(../images/webstudio/02_tablet/hero-bg-tablet@2x.jpg);
@@ -238,7 +239,8 @@ transition: color 250ms var(--animation-cubic);
     }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),(min-resolution: 2dppx){
+ screen and (min-width: 769px) and (min-resolution: 192dpi),
+ screen and (min-width:769px) and (min-resolution: 2dppx){
 .primary{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/webstudio/03_desktop/hero-bg-desktop@2x.jpg);
@@ -892,7 +894,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100vw;
-   height: 100vh;
     background: #FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
