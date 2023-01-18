@@ -16,13 +16,16 @@
   <div class="container head">
         <nav class="head">
         <a href="" class="navigation-link "><span class="accent">WEB</span>STUDIO</a>
+        <button type="button" class="menu-btn js-open-menu" aria-expanded="false"  >
+            <svg width="32" height="22"><use href="./images/sprite.svg#burger"></use></svg>
+        </button>
         <ul class="mail">
             <li class="nlink"><a href="./index.html" class="navigation">Studio</a></li>
             <li class="nlink"> <a href="./portfolio.html" class="navigation current navcurrent">Portfolio</a></li>
             <li class="nlink"><a href="" class="navigation">Contacts</a></li>
         </ul>
     </nav>
-    <ul class="mail" >
+    <ul class="hemail" >
        <li class="linkm"><a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a></li>
        <li class="linkm"><a href="tel:+11(000)111-11-11" class="mail-link">+11 (000) 111-11-11</a></li> 
     </ul>
@@ -40,23 +43,31 @@
             <li class="item-btn"><button type="button" class="btn"> Marketing </button></li>
         </ul>
         <ul class="portfolio-list">
-           <li class="portfolio"><a href="" class="link"><img src="./images/banking.jpg" alt="Banking App" width="360" height="300">
+           <li class="portfolio"><a href="" class="link">
+            <img 
+            src="./images/banking.jpg" alt="Banking App" width="360" height="300">
             <div class="overlay"><p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div></a>
             <div class="portfolio-set"><h2 class="list-header">Banking App Interface Concept</h2>
                 <p class="list-paragraph">App</p></div>
         </li>
-            <li class="portfolio"> <a href="" class="link"><img src="./images/phone.jpg" alt="Cashless" width="360" height="300">
+            <li class="portfolio"> <a href="" class="link">
+                <img 
+                src="./images/phone.jpg" alt="Cashless" width="360" height="300">
                  <div class="overlay"><p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div></a>
                 <div class="portfolio-set"><h2 class="list-header">Cashless Payment</h2>
                     <p class="list-paragraph">Marketing</p></div>
             </li>
-            <li class="portfolio"> <a href="" class="link"><img src="./images/medition.jpg" alt="Meditaion App" width="360" height="300"> 
+            <li class="portfolio"> <a href="" class="link">
+                <img 
+                src="./images/medition.jpg" alt="Meditaion App" width="360" height="300"> 
                 <div class="overlay"><p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div></a>
                 <div class="portfolio-set"><h2 class="list-header">Meditaion App</h2>
                     <p class="list-paragraph">App</p></div>
             </li>
            
-            <li class="portfolio"> <a href="" class="link"><img src="./images/taxi.jpg" alt="Taxi Service" width="360" height="300">
+            <li class="portfolio"> <a href="" class="link">
+                <img
+                src="./images/taxi.jpg" alt="Taxi Service" width="360" height="300">
                 <div class="overlay"><p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p></div></a>
                 <div class="portfolio-set"><h2 class="list-header">Taxi Service</h2>
                     <p class="list-paragraph">Marketing</p></div>
@@ -90,33 +101,49 @@
         </ul></div></section>
     </main>
     <footer class="end" >
-        <div class="container "><div class="fotter-boxes"><div class="box1"><a href="" class="logo"><span class="accent-footer">WEB</span>STUDIO</a>
+        <div class="container "><div class="fotter-boxes">
+            <div class="box2"><div class="box1"><a href="" class="logo"><span class="accent-footer">WEB</span>STUDIO</a>
             <p class="text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p></div>
-        <div class="media"><p class="text">Social media</p>
+        <div class="media"><p class="ftext">Social media</p>
         <ul class="media-set">
-            <li class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-insta"></use></svg></li>
-                    <li class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-twitter"></use></svg></li>
-                    <li class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-Vector"></use></svg></li>
-                    <li class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-facebook"></use></svg></li>
+            <li></li>><a href="" class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-insta"></use></svg></a></li>
+                    <li></li>><a href=""  class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+                    <li></li>><a href="" class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-Vector"></use></svg></a></li>
+                    <li ></li><a href="" class="icon-media"><svg class="apps-media"><use href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
                 
         </ul>
-        </div>
+        </div></div>
         <div class="subscribe-form">
-            <form class="form-footer">
-               <label class="form-text">
-                <span class="form-thumb">Subscribe</span>
-                <input class="form-email" type="email" name="user-email" placeholder="E-mail">
-               </label>
-               <button type="submit" class="subscribe-btn primary-btn">Subscribe
-                <svg class="subscribe-icon"><use href="./images/symbol-defs.svg#icon-subscribe"></use></svg>
-               </button>
-           
-    
-            </form>
-        </div>
+            <p class="ftext">Subscribe</p>
+        <form class="form-footer">        
+            <input class="form-email" type="email" name="user-email" placeholder="E-mail">
+           <button type="submit" class="subscribe-btn">Subscribe
+            <svg class="subscribe-icon"><use href="./images/symbol-defs.svg#icon-subscribe"></use></svg>
+           </button>
+        </form>
+    </div>
     </div>
         </div>
-        
     </footer>
+    <!-- HAMBURGER_MENU -->
+    <div class="hamburger-menu js-menu-container"  >
+        <button type="button" class="close-menu-btn js-close-menu" ><svg class="modal-icon" width="8" height="8"><use href="./images/symbol-defs.svg#icon-vector"></use></svg></button>
+            <ul class="menu-mail">
+            <li class="mlink"><a href="./index.html" class="menu-navigation ">Studio</a></li>
+            <li class="mlink"> <a href="./portfolio.html" class="menu-navigation">Portfolio</a></li>
+            <li class="mlink"><a href="" class="menu-navigation menucurrent">Contacts</a></li>
+        </ul>
+        <div class="second-menu"><ul class="menu-contacts">
+       <li> <a href="tel:+11(000)111-11-11" class="menutel-link menucurrent">+11 (000) 111-11-11</a></li>
+     <li> <a href="mailto:info@devstudio.com" class="menu-link">info@devstudio.com</a></li>
+    </ul>
+        <ul class="menu-apps">
+        <li class="icon-item"> <a href="" class="icon-team"><svg class="apps-item"><use href="./images/symbol-defs.svg#icon-insta"></use></svg></a></li>
+        <li class="icon-item"> <a href="" class="icon-team"><svg class="apps-item"><use href="./images/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+        <li class="icon-item"> <a href="" class="icon-team"><svg class="apps-item"><use href="./images/symbol-defs.svg#icon-Vector"></use></svg></a></li>
+        <li class="icon-item"> <a href="" class="icon-team"><svg class="apps-item"><use href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+        </ul></div>
+    </div> 
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
